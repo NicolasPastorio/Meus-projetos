@@ -1,0 +1,81 @@
+/*GERAL*/
+header{
+	width: 100%;
+	display: flex;
+}
+body{
+	width: 100vw;
+	box-sizing: border-box;
+}
+main{
+	width: 100vw;
+	display: flex; 
+}
+.hero{
+	margin: 5% 0;
+	border-top: solid 2px #9A9494;
+	border-bottom: solid 2px #9A9494;
+	padding: 0 8%;
+}
+.hero>h2{/*1 filho do container*/
+		margin: 2% 0;
+}
+.caixa{
+	background-color: #8480AF; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2%;
+}
+.caixa h2{
+	display: inline-block;
+}
+.texto{
+	width: 100%;
+	margin: 8% 2%;
+}
+.form{ width: 100%; }
+.form form{ width: 100%; margin-bottom: 3%; }
+.form input{ 
+	color: #915959;
+	border-width: 0;
+	background-color: #8480AF; 
+	box-shadow: 2px 2px 5px #915959;
+	transition: 0.43s;
+	outline: none;/*remove borda padrão*/
+}
+.form input:focus{ 
+	background: initial;
+	box-shadow: none;
+	transition: 0.43s;
+}
+.form button{
+	background-color: #8480AF;
+	outline: none;
+	border-width: 0;
+	box-shadow: 2px 2px 5px #915959;
+	transition: 0.43s;
+}
+.form button:hover{ 
+	transition: 0.43s; 
+	cursor: pointer; 
+}
+footer{ 
+	width: 100%; 
+	padding: 1.5%; 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.form button{
+	padding: 1.5% 5%;
+	border-radius: 4px;
+	color: #4F4F4F;/*cinza fora do padrão*/
+	font-weight: bold;	
+}
+.icons{ 
+	display: flex; 
+	justify-content: space-between;
+}
+.icons i{ color: #915959; }
+/*fim do GERAL*/
