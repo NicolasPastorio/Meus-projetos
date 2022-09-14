@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sobre o Autor</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                border: none;
+                text-decoration: none;
+                box-sizing: border-box;
+                list-style: none;
+                background-color: rgb(247, 236, 235);
+            }
+            a{
+                text-decoration: none;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                list-style: none;
+            }
+            main aside ul li{
+                width: 100%;
+                text-align: center;
+            }
+            main aside ul li{
+                padding-top: 18px;
+            }
+            main aside ul li a{
+                width: 100%;
+                background-color: tomato;
+                color: #fff;
+                display: inline-block;
+                padding: 6px 0;
+                border-radius: 10px;
+            }
+            header{
+                padding: 25px 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
+            }
+            header h1{
+                color: rgb(63, 61, 62);
+            }
+            header span{
+                color:rgb(190, 86, 147);
+            }
+            header img{
+                border-radius: 15px;
+                width: 100px;
+                height: auto;
+                padding-right: 50px;
+            }
+            header div.logo{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            main{
+                margin: 0;
+                padding: 20px;
+                display: flex;
+            }
+            aside{
+                width: 30%;
+                height: auto;
+                padding: 5px 10px;
+                margin: 0;
+            }
+            section{
+                width: 70%;
+                height: 341px;
+                padding: 0 15px;
+                margin: 0;
+                overflow: hidden;
+                overflow-y: scroll;
+            }
+            /* bolinha sobe-desce */
+            div.segunda{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            background-color:rgb(190, 86, 147);
+            animation: animacao2  1s infinite;
+            }
+            @keyframes animacao2{
+            0%{top: 50px;}
+            25%{top: -36px;}
+            50%{top: -45px;}
+            75%{top: -30px;}
+            100%{top: 50px;}
+            }
+        </style>
+    </head>
+    <body>
+        
+        <header class="section1">
+            <div class="logo">
+                <img src="download.png">
+                <h1><span>Web</span>site</h1>
+            </div>
+            <div class="segunda"></div>
+            </header>
+        <main>
+            <aside>
+                <ul>
+                    <li><a href="#Nome">Nome</a></li>
+                    <li><a href="#Moradia">Onde mora</a></li>
+                    <li><a href="#Trabalho">Trabalho</a></li>
+                    <li><a href="#Filiação">Filiação</a></li>
+                    <li><a href="#Curso">Curso</a></li>
+                    <li><a href="#Busca">O que busca</a></li>
+                    <li><a href="#Fato">Fato curioso sobre o autor</a></li>
+                </ul>
+            </aside>
+            <section class="section2">
+                <div id="Nome">
+                    <h3>Nícolas Pastório de moura</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                    <p>It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum</p>
+                </div>
+                <div id="Moradia">
+                    <h3>Taquara, Rio Grande do Sul</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                    <p>It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum</p>
+                </div>
+                <div id="Trabalho">
+                    <h3>Móveis</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                    <p>It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum</p>
+                </div>
+                <div id="Filiação">
+                    <h3><b>Nome do pai: </b>Leomar<br>
+                        <b>Nome da mãe: </b>Ruthe<br></h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry.</p>
+                        <p>Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a 
+                        type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining 
+                        essentially unchanged.</p>
+                        <p>It was popularised in the 1960s with the release of Letraset
+                        sheets containing Lorem Ipsum passages, and more recently with 
+                        desktop publishing software like Aldus PageMaker including 
+                        versions of Lorem Ipsum</p>
+                </div>
+                <div id="Curso">
+                    <h3>Sistemas para a Internet</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                    <p>It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum</p>
+                </div>
+                <div id="Busca">
+                    <h3>Busca</h3>
+                    <p>Aprender o necessário para entrar no mercado de trabalho 
+                    e se tornar um profissional.
+                    </p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                    <p>It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum</p>
+                </div>
+                <div id="Fato">
+                    <h3>Fato curioso</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                    <p>It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum</p>
+                    <p>Alguns fatos curiosos é que ele desenhava quando pequeno 
+                    e tem problemas com doces...</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
